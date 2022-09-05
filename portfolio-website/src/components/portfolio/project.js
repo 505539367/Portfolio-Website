@@ -3,7 +3,7 @@ export const project = [
   {
     id: "project1",
     name: "Break Bricks",
-    img: "/assets/BreakBricks.gif",
+    img: "assets/BreakBricks.gif",
     githubLink: "https://github.com/505539367/Break-Bricks",
     demoLink: "https://505539367.github.io/Break-Bricks/",
     date: "Aug 2022",
@@ -11,7 +11,7 @@ export const project = [
   {
     id: "project2",
     name: "FoodGram",
-    img: "/assets/FoodGram.gif",
+    img: "assets/FoodGram.gif",
     githubLink: "https://github.com/505539367/Fever-Tourism",
     demoLink: "https://www.youtube.com/watch?v=tI271LDUpLU",
     date: "Nov 2021 - Dec 2021",
@@ -19,7 +19,7 @@ export const project = [
   {
     id: "project3",
     name: "Fever Tourism",
-    img: "/assets/FeverTourism.png",
+    img: "assets/FeverTourism.png",
     githubLink: "https://github.com/505539367/Fever-Tourism",
     demoLink: "https://jovial-raindrop-fa762f.netlify.app/",
     date: "March 2022 - May 2022",
@@ -27,7 +27,7 @@ export const project = [
   {
     id: "project4",
     name: "GradSchoolZero",
-    img: "/assets/GradSchoolZero.jpeg",
+    img: "assets/GradSchoolZero.jpeg",
     githubLink: "https://github.com/505539367/graduate_system",
     demoLink: "",
     date: "Oct 2021 - Dec 2021",
@@ -35,7 +35,7 @@ export const project = [
   {
     id: "project5",
     name: "Instagram Clone",
-    img: "/assets/InstagramClone.gif",
+    img: "assets/InstagramClone.gif",
     githubLink: "https://github.com/505539367/InstagramClone",
     demoLink: "https://github.com/505539367/InstagramClone/blob/master/walkthrough2.gif",
     date: "Oct 2021",
@@ -43,7 +43,7 @@ export const project = [
   {
     id: "project6",
     name: "Simple Tweet",
-    img: "/assets/SimpleTweet.gif",
+    img: "assets/SimpleTweet.gif",
     githubLink: "https://github.com/505539367/SimpleTweet",
     demoLink: "https://raw.githubusercontent.com/505539367/SimpleTweet/master/walkthrough2.gif",
     date: "Oct 2021",
@@ -51,7 +51,7 @@ export const project = [
   {
     id: "project7",
     name: "Flixster",
-    img: "/assets/Flixster.gif",
+    img: "assets/Flixster.gif",
     githubLink: "https://github.com/505539367/Flixster",
     demoLink: "https://github.com/505539367/Flixster/blob/master/walkthrough2.gif",
     date: "Sep 2021",

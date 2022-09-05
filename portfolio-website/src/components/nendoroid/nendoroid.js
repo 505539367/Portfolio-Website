@@ -1,12 +1,6 @@
 import { useState } from 'react'
 import { nendoroidImg } from "./nendoroidImg"
-
-
-// Import Swiper styles
-import "swiper/css"
-import "swiper/css/navigation"
 import './nendoroid.css'
-
 import { BsChevronLeft } from 'react-icons/bs'
 import { BsChevronRight } from 'react-icons/bs'
 

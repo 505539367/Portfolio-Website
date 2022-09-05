@@ -9,7 +9,7 @@ function Experience () {
 
       <div className='container experience_container'>
         <div className='experience_company-image'>
-          <img src="/assets/swc.png" alt="swc" />
+          <img src="assets/swc.png" alt="swc" />
         </div>
         <div className='experience_content'>
           <h2>Software Engineer Intern</h2>

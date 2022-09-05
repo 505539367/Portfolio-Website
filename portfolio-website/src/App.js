@@ -9,9 +9,9 @@ function App () {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<AboutMe />} />
-          <Route exact path='/Gallery' element={<Gallery />} />
-          <Route path='/Contact' element={<ContactMe />} />
+          <Route exact path='/Portfolio-Website/' element={<AboutMe />} />
+          <Route exact path='/Portfolio-Website/Gallery' element={<Gallery />} />
+          <Route path='/Portfolio-Website/Contact' element={<ContactMe />} />
         </Routes>
       </BrowserRouter>
 

@@ -9,7 +9,7 @@ function Education () {
 
       <div className='container education_container'>
         <div className='education_college-image'>
-          <img src="/assets/ccny.jpg" alt="ccny" />
+          <img src="assets/ccny.jpg" alt="ccny" />
         </div>
         <div className='education_content'>
           <h2>The City College of New York - New York, NY</h2>
