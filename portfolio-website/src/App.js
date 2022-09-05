@@ -7,11 +7,11 @@ import Gallery from './pages/Gallery'
 function App () {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route exact path='/Portfolio-Website/' element={<AboutMe />} />
-          <Route exact path='/Portfolio-Website/Gallery' element={<Gallery />} />
-          <Route path='/Portfolio-Website/Contact' element={<ContactMe />} />
+      <BrowserRouter basename='/Portfolio-Website'>
+        <Routes >
+          <Route exact path='/' element={<AboutMe />} />
+          <Route exact path='/Gallery' element={<Gallery />} />
+          <Route path='/Contact' element={<ContactMe />} />
         </Routes>
       </BrowserRouter>
 
