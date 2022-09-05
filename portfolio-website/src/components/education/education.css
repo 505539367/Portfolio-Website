@@ -1,0 +1,46 @@
+.education_container {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
+}
+
+.education_college-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.education_content {
+  margin: 2.5rem 0.5rem 2rem;
+  color: var(--color-dark);
+}
+
+.education_content h2 {
+  font-weight: bold;
+}
+.education_content ul {
+  margin: 1rem 2rem 2rem;
+  font-size: 20px;
+}
+
+.education_content ul li {
+  list-style-type: circle;
+}
+
+@media screen and (max-width: 1024px) {
+  .education_container {
+    grid-template-columns: 1fr;
+  }
+
+  .education_college-image {
+    width: 50%;
+    margin: 0rem auto 0rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .education_college-image {
+    width: 65%;
+  }
+}

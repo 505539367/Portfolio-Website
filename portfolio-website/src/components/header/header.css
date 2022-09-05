@@ -1,0 +1,39 @@
+header {
+  height: max-content;
+  background: var(--color-main);
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 70% 40%;
+  padding: 0.6rem;
+  color: var(--color-light);
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.links {
+  margin-right: 2rem;
+}
+
+.link {
+  padding-right: 2rem;
+  color: var(--color-light);
+}
+
+.link-active {
+  padding-right: 2rem;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    grid-template-columns: 55% 68%;
+    padding-right: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    grid-template-columns: 32% 80%;
+    padding-right: 0rem;
+  }
+}

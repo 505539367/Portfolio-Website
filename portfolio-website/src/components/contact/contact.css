@@ -1,0 +1,117 @@
+.contact_resume {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.container.contact_container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  gap: 12%;
+  margin: 2rem auto;
+}
+
+.contact_options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact_option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: 1px solid transparent;
+  background-color: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 3px solid var(--color-primary);
+  resize: none;
+  color: var(--color-white);
+  background: transparent;
+}
+
+::placeholder {
+  color: var(--color-primary);
+  opacity: 0.8;
+}
+
+form > .btn {
+  padding: 0.6rem 1rem;
+  background: var(--color-primary-variant);
+}
+
+.contract_socials {
+  text-align: center;
+  margin: 2rem auto 2rem;
+  font-size: 40px;
+}
+.contract_socials a {
+  padding: 2rem;
+}
+
+.LinkedIn {
+  color: rgb(5, 5, 148);
+}
+
+.Github {
+  color: rgb(27, 27, 27);
+}
+
+@media screen and (max-width: 1024px) {
+  .container.contact_container {
+    width: 75%;
+    display: block;
+    gap: 20%;
+  }
+
+  .contact_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  form {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact_container {
+    width: 80%;
+    display: block;
+    margin: 2rem auto 2rem;
+  }
+  .contact_options {
+    display: block;
+  }
+  .contact_option {
+    margin-bottom: 1rem;
+  }
+}

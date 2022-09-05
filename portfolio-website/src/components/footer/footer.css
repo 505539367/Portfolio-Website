@@ -1,0 +1,17 @@
+footer {
+  background: var(--color-main);
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+
+  height: max-content;
+}
+
+.copyright {
+  margin: 0rem auto 2rem;
+  color: black;
+}
+
+footer .links .link {
+  color: var(--color-primary);
+}
