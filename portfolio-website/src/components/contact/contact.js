@@ -40,7 +40,7 @@ function Contact () {
           <article className='contact_option'>
             <RiWechat2Line className='contact-icon' />
             <h4>WeChat</h4>
-            <h5>id:y505539367</h5>
+            <h5>id : y505539367</h5>
           </article>
         </div>
 
